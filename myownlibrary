@@ -1,0 +1,9 @@
+function collision(lambo1,wall){
+    if(lambo1.x-wall.x < wall.width/2+lambo1.width/2
+    && wall.x- lambo1.x < wall.width/2+lambo1.width/2){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
