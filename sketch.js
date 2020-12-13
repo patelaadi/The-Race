@@ -24,10 +24,10 @@ function setup() {
 
 function draw() {
   background(0,128,128); 
-  lambo1.velocityX=speed+rand;
-  lambo2.velocityX=speed+rand;
-  lambo3.velocityX=speed+rand;
-  lambo4.velocityX=speed+rand; 
+  lambo1.velocityX=speed-10;
+  lambo2.velocityX=speed-20;
+  lambo3.velocityX=speed-30;
+  lambo4.velocityX=speed-40; 
   if(collision(lambo1,wall)){
     lambo1.velocityX=0;
     lambo2.velocityX=0;
