@@ -1,16 +1,14 @@
 var wall;
 var lambo1, lambo2,lambo3, lambo4;
 var speed,weight;
-var rand;
 function setup() {
   createCanvas(1600,400);
 
-  rand=random(10,50);
+  
 
   wall= createSprite(1500,200,60,400);
   wall.shapeColor=("black");
   speed= random(50,150);
-  weight= random(400,1500);
 
   lambo1= createSprite(100,50,60,30);
   lambo1.shapeColor=("crimson");
